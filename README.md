@@ -1,5 +1,5 @@
 <h1> DuinoEthernet </h1>
-  <p>Forked from duino but with Ethernet power!</p><br />
+  <p>Forked from duino but with Arduino's Ethernet power!</p><br />
 <img src="http://forthebadge.com/images/badges/built-with-love.svg"/>
 
 <h2>Usage</h2>
