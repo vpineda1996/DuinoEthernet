@@ -17,9 +17,10 @@
  
 <h3>Crème de la Crème : How to send messages to Arduino?</h3>
  <p>In a basic JSON object (as described in <a href="http://jsonapi.org/format/">here</a> 
- you'll need to put 3 basic stuff for this to work: command, pin and value. <br /> 
+ you'll need to put 3 basic stuff for this to work: command, pin and value.<br /> 
  As explained <a href="http://jsonapi.org/format/">here</a> since they are integers, you dont need to put 
- "" arround the value, so don't put them</p>
+ "" arround the value, so don't put them. </p>
+ <p> To send API calls to your Arduino server you need to use the following URL <strong>http://arduino.ip.or.hostame/api</strong></p>
  
  <h4>Table of commands and desired behavior</h4>
  
