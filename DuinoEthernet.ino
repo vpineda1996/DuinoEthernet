@@ -808,7 +808,7 @@ void dr(EthernetClient client, int p, int val) {
   if(p == -1) { return; }
   pinMode(p, INPUT);
   int oraw = digitalRead(p);
-  processSendJson(client, p, val, true);
+  processSendJson(client, p, oraw, true);
 }
 
 /*
@@ -818,7 +818,7 @@ void ar(EthernetClient client, int p, int val) {
   if(p == -1) { return; }
   pinMode(p, INPUT); // don't want to sw
   int rval = analogRead(p);
-  processSendJson(client, p, val, true);
+  processSendJson(client, p, rval, true);
 }
 
 void aw(EthernetClient client, int p, int val) {
